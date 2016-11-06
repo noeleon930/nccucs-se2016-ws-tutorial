@@ -6,6 +6,6 @@ ws.onmessage = ev => {
     console.log(ev.data)
 }
 
-function simpleSend(msg) {
+function send(msg) {
     ws.send(msg)
 }
