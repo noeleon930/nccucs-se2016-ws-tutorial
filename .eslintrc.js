@@ -9,6 +9,9 @@ module.exports = {
     "parserOptions": {
         "sourceType": "module"
     },
+    "globals": {
+        "io": true
+    },
     "rules": {
         "indent": 0,
         "linebreak-style": 0,

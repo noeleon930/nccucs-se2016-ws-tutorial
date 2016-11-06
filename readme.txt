@@ -6,5 +6,8 @@ $> npm install -g lite-server
 # install dependencies
 $> npm install
 
-# start web dev (live-reloading)
-$> npm run web
+# start simple-echo dev (live-reloading)
+$> npm run simple-echo
+
+# start socket.io.with.express
+$> npm run socket.io

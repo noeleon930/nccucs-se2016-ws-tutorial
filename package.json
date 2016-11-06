@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "web": "lite-server -c bs-config.json"
+    "simple-echo": "lite-server -c bs-config.json",
+    "socket.io": "node server/socket.io.with.express.js"
   },
   "author": "",
   "license": "MIT",
