@@ -1,5 +1,6 @@
 {
     "files": ["./client/**/*.{html,css,js}"],
+    "port": 3333,
     "server": {
         "baseDir": "./client"
     }
