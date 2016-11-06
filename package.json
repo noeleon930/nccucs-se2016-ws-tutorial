@@ -1,0 +1,16 @@
+{
+  "name": "nccucs-se2016-ws-tutorial",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web": "lite-server -c bs-config.json"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+    "ws": "*"
+  }
+}
