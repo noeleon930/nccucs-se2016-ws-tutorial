@@ -7,10 +7,11 @@ const EchoServer = new WebSocketServer({
 
 // 當有新連線發生時的 handler
 EchoServer.on('connection', websocket => {
+    console.log('new connection established')
 
     // 當這個連線有新訊息進來時的 handler
     websocket.on('message', msg => {
-        console.log('received: %s', msg)
+        console.log('received:', msg)
 
         // 然後我們回應
         websocket.send('EchoServer: 你剛剛說 "' + msg + '"')
