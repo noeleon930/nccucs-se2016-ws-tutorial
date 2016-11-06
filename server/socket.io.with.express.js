@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 })
 
 io.on('connection', socket => {
-    console.log('新連線成功，透過 頻道 A 傳東西')
+    console.log('連接成功，透過 頻道 A 傳東西')
     socket.emit('頻道 A', {
         '嗨': '你好',
         '其實': {
