@@ -7,7 +7,8 @@
     "simple-echo-server": "node server/simple-echo-server.js",
     "simple-echo-web": "lite-server -c bs-config.json",
     "simple-echo": "concurrently --kill-others \"npm run simple-echo-server\" \"npm run simple-echo-web\"",
-    "socket.io": "node server/socket.io.with.express.js"
+    "socket.io": "node server/socket.io.with.express.js",
+    "chatroom": "node server/chatroom/chatroom.js"
   },
   "author": "",
   "license": "MIT",
