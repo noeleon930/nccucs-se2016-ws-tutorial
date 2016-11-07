@@ -9,10 +9,10 @@ const io = require('socket.io')(server)
 
 server.listen(8787)
 
-app.use(express.static(path.join(__dirname, 'static')))
+app.use(express.static(path.join(__dirname, 'socketio-static')))
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/static/index.html')
+    res.sendFile(__dirname + '/socketio-static/index.html')
 })
 
 io.on('connection', socket => {
