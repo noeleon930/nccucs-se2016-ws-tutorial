@@ -1,6 +1,6 @@
 'use strict'
 
-var socket = io.connect('http://localhost:8787')
+var socket = io.connect(window.location.origin)
 
 socket.on('others', data => {
     console.log(data.from, ':', data.msg)
